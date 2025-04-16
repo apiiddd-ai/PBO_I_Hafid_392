@@ -12,7 +12,7 @@ public class LoginSystem {
         System.out.println("2. Login sebagai Mahasiswa");
         System.out.print("Pilih opsi: ");
         int pilihan = scanner.nextInt();
-        scanner.nextLine(); // buang newline
+        scanner.nextLine(); 
 
         if (pilihan == 1) {
             System.out.print("Masukkan username: ");
